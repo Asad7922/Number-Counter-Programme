@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="Container">
+        <div class="mobile">
+            <div class="option">
+                <div id="info" onclick="infoop()"><i class="bi bi-info-circle-fill"></i></div>
+                <div id="setting" onclick="settingop()"><i class="bi bi-gear-fill"></i></div>
+                <div id="refresh" onclick="refresh()"><i class="bi bi-arrow-clockwise"></i></div>
+            </div>
+            <div class="notch"></div>
+            <div id="setting-layer" >
+               <h2>Select Theme</h2>
+               <span id="white"></span>
+               <span id="black"></span>
+               <div id="colseset" onclick="settingcl()"><i class="bi bi-x-circle"></i></div>
+            </div>
+            <div id="info-layer">
+                <p>This app is used for Increment & decrement Numbers</p>
+               <div id="colseinfo" onclick="infocl()"><i class="bi bi-x-circle"></i></div>
+
+            </div>
+            <span id="counter" >0</span>
+            <button id="btn-1" onclick="increment()">+</button>
+            <button id="btn-2" onclick="decrement()">-</button>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
+
+
+
